@@ -1,0 +1,19 @@
+<p>Testing Classes</p>
+<button type ="button" name="button" (click)='getDataFromClass1()'>Person 1</button>
+<div class="data">
+<ul>
+    <li *ngFor = "let info of dataReceived1">{{info}}</li>
+</ul>
+</div>
+<button type ="button" name="button" (click)='getDataFromClass2()'>Person 2</button>
+<div class="data">
+<ul>
+    <li *ngFor = "let info of dataReceived2">{{info}}</li>
+</ul>
+</div>
+<button type="button" name="button" (click)='getDataFromClass3()'>Person 3</button>
+<div class="data">
+<ul>
+    <li *ngFor = "let info of dataReceived3">{{info}}</li>
+</ul>
+</div>
